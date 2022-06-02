@@ -7,6 +7,10 @@ const config = defineConfig({
 		dashes: 'oldschool'
 	},
 
+	layout: {
+		boxes: "./src/lib/Box.svelte"
+	},
+
 	remarkPlugins: [],
 	rehypePlugins: []
 });

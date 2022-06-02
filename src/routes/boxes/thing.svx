@@ -1,5 +1,5 @@
 ---
-title: Summnation
+title: Thing
 layout: boxes
 ---
 
