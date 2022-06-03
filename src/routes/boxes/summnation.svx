@@ -3,4 +3,8 @@ title: Summnation
 layout: boxes
 ---
 
-nsjfnsanfjdfjdnfna
+<script lang="ts">
+  import Katex from 'svelte-katex'
+</script>
+
+<Katex>ax^2 + bx + c = 0</Katex>
