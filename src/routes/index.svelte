@@ -14,8 +14,8 @@
     name: "General",
     boxes: [
       {
-        name: "Summnation",
-        href: "boxes/summnation"
+        name: "Summation",
+        href: "boxes/summation"
       },
       {
         name: "Thing",

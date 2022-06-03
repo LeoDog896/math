@@ -1,9 +1,9 @@
 ---
-title: Summnation
+title: Summation
 layout: boxes
 ---
 
-The following is the syntax for a summnation, one of the many commonly used mathematical symbols.
+The following is the syntax for a summation, one of the many commonly used mathematical symbols.
 
 $$
 \displaystyle\sum_{n=a}^bc
