@@ -15,11 +15,11 @@
     boxes: [
       {
         name: "Summation",
-        href: "math/boxes/summation"
+        href: "/math/boxes/summation"
       },
       {
         name: "Thing",
-        href: "math/boxes/thing"
+        href: "/math/boxes/thing"
       }
     ]
   }]
