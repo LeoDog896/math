@@ -3,6 +3,20 @@ title: Summnation
 layout: boxes
 ---
 
+The following is the syntax for a summnation, one of the many commonly used mathematical symbols.
+
 $$
-x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}
+\displaystyle\sum_{n=a}^bc
 $$
+
+This can actually be closely related to a for loop:
+
+```ts
+
+let sum = 0;
+let c = ...
+
+for (let n = a; n <= b; n++) {
+  sum += c
+} 
+```
