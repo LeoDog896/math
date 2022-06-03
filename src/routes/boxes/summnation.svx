@@ -12,7 +12,6 @@ $$
 This can actually be closely related to a for loop:
 
 ```ts
-
 let sum = 0;
 let c = ...
 
