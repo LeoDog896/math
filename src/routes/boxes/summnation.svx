@@ -3,8 +3,6 @@ title: Summnation
 layout: boxes
 ---
 
-<script lang="ts">
-  import Katex from 'svelte-katex'
-</script>
-
-<Katex>ax^2 + bx + c = 0</Katex>
+$$
+x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}
+$$
