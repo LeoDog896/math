@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bf879e56.js",
+    "file": "start-fc41abc8.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -24,7 +24,7 @@
       "_index-cff33647.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-071bc2e5.css"
+      "assets/pages/__layout.svelte-09547757.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -37,26 +37,26 @@
     ]
   },
   "src/routes/boxes/sequence.svx": {
-    "file": "pages/boxes/sequence.svx-74cb6b62.js",
+    "file": "pages/boxes/sequence.svx-c8982427.js",
     "src": "src/routes/boxes/sequence.svx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-0cc79b3e.js",
-      "_Box-5282c600.js"
+      "_Box-7a4e1585.js"
     ],
     "css": [
-      "assets/pages/boxes/sequence.svx-1ad76f62.css"
+      "assets/pages/boxes/sequence.svx-68a4b0a6.css"
     ]
   },
   "src/routes/boxes/thing.svx": {
-    "file": "pages/boxes/thing.svx-c88c0e7c.js",
+    "file": "pages/boxes/thing.svx-622c2e78.js",
     "src": "src/routes/boxes/thing.svx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-0cc79b3e.js",
-      "_Box-5282c600.js"
+      "_Box-7a4e1585.js"
     ]
   },
   "src/routes/index.svelte": {
@@ -78,8 +78,8 @@
       "_index-0cc79b3e.js"
     ]
   },
-  "_Box-5282c600.js": {
-    "file": "chunks/Box-5282c600.js",
+  "_Box-7a4e1585.js": {
+    "file": "chunks/Box-7a4e1585.js",
     "imports": [
       "_index-0cc79b3e.js"
     ]
