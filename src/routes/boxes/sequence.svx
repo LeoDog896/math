@@ -10,7 +10,7 @@ layout: boxes
 <Result left="" right="">
   <div slot="input">
 
-# Summnation
+# Summation
 
 The following is the syntax for a summation, one of the many commonly used mathematical symbols. This is exhibited with a for loop:
 
