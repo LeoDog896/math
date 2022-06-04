@@ -3,7 +3,7 @@
   export let right = "Result"
 </script>
 
-<div class="table w-full py-4">
+<div class="table w-full py-4 rounded-lg">
   <div class="table-cell h-full border">
     <div class="flex flex-col h-full">
       <div class="w-full bg-gray-100 text-center text-xl p-4">{left}</div>
