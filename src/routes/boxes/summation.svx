@@ -1,18 +1,18 @@
 ---
-title: Summation
+title: Summation & Product Symbols
 layout: boxes
 ---
-
-The following is the syntax for a summation, one of the many commonly used mathematical symbols.
-
-This can actually be closely related to a for loop:
 
 <script lang="ts">
   import Result from "$lib/Result.svelte"
 </script>
 
-<Result left="Code" right="Math">
+<Result left="" right="">
   <div slot="input">
+
+# Summnation
+
+The following is the syntax for a summation, one of the many commonly used mathematical symbols. This is exhibited with a for loop:
 
 ```ts
 let sum = 0;
@@ -33,10 +33,12 @@ for (let n = a; n <= b; n++) {
   </div>
 </Result>
 
-The other form of this, a PI (product) symbol, can be used for multiplication
-
-<Result left="Code" right="Math">
+<Result left="" right="">
   <div slot="input">
+
+# Product
+
+The following is the syntax for a product, another one of the many commonly used mathematical symbols. This is also exhibited with a for loop:
 
 ```ts
 let sum = 0;
