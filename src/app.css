@@ -5,6 +5,10 @@
 
 @layer base {
   h1 {
-    @apply text-2xl
+    @apply text-2xl font-bold mb-4 block
+  }
+
+  h2 {
+    @apply text-xl font-bold my-2 block
   }
 }

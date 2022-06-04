@@ -7,6 +7,20 @@ layout: boxes
   import Result from "$lib/Result.svelte"
 </script>
 
+A sequence is a list of things in some arbitrary order.
+
+For example, $\set{5, 4, 3, 2, 1}$ is a sequence of numbers starting from 5 ascending down.
+
+In programming, you may see these as arrays: `[5, 4, 3, 2, 1]`.
+
+In math, sequences start at 1.
+
+## Sets
+
+You may also have heard of sets. These exist in math as well, and like in many languages, elements can only be repeated once, but the order doesn't matter.
+
+The sequence $\set{1, 2, 3, 3}$ would be a set of $\set{1, 2, 3}$. You can try this out in JavaScript: `new Set([1, 1, 2, 3])`
+
 <Result left="" right="">
   <div slot="input">
 

@@ -26,7 +26,7 @@
 </div>
 
 <style>
-  :global(.katex) { 
+  :global(.math-display) { 
     @apply text-xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl;
   }
 </style>
