@@ -45,7 +45,7 @@ let sum = 0;
 let c = ...
 
 for (let n = a; n <= b; n++) {
-  sum += c
+  sum *= c
 } 
 ```
 
