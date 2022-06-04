@@ -5,11 +5,14 @@ layout: boxes
 
 The following is the syntax for a summation, one of the many commonly used mathematical symbols.
 
-$$
-\displaystyle\sum_{n=a}^bc
-$$
-
 This can actually be closely related to a for loop:
+
+<script lang="ts">
+  import Result from "$lib/Result.svelte"
+</script>
+
+<Result left="Code" right="Math">
+  <div slot="input">
 
 ```ts
 let sum = 0;
@@ -20,17 +23,36 @@ for (let n = a; n <= b; n++) {
 } 
 ```
 
+  </div>
+  <div slot="result">
+
+    $$
+    \displaystyle\sum_{n=a}^bc
+    $$
+
+  </div>
+</Result>
+
 The other form of this, a PI (product) symbol, can be used for multiplication
 
-$$
-\displaystyle\prod_{n=a}^bc
-$$
+<Result left="Code" right="Math">
+  <div slot="input">
 
 ```ts
 let sum = 0;
 let c = ...
 
 for (let n = a; n <= b; n++) {
-  sum *= c
+  sum += c
 } 
 ```
+
+  </div>
+  <div slot="result">
+
+    $$
+    \displaystyle\prod_{n=a}^bc
+    $$
+
+  </div>
+</Result>
