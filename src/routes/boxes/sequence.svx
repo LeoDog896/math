@@ -1,5 +1,5 @@
 ---
-title: Summation & Product Symbols
+title: Sequence
 layout: boxes
 ---
 

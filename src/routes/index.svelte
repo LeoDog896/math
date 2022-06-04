@@ -14,8 +14,8 @@
     name: "General",
     boxes: [
       {
-        name: "Summation",
-        href: "/math/boxes/summation"
+        name: "Sequence",
+        href: "/math/boxes/sequence"
       },
       {
         name: "Thing",
