@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-11ebbf78.js",
+    "file": "start-d527502b.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -23,7 +23,7 @@
       "_index-534db0d8.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-678f07fd.css"
+      "assets/pages/__layout.svelte-13299e6e.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -36,7 +36,7 @@
     ]
   },
   "src/routes/boxes/summation.svx": {
-    "file": "pages/boxes/summation.svx-b4e0e534.js",
+    "file": "pages/boxes/summation.svx-16bfc351.js",
     "src": "src/routes/boxes/summation.svx",
     "isEntry": true,
     "isDynamicEntry": true,
