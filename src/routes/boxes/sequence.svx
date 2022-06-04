@@ -1,5 +1,5 @@
 ---
-title: Summation
+title: Sequence
 layout: boxes
 ---
 
