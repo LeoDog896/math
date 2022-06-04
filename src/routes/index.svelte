@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { fly } from "svelte/transition"
+  
   interface Box {
     name: string;
     href: string;
@@ -34,7 +36,7 @@
     {#if !!collapsed}
       <div class="flex flex-wrap justify-around">
         {#each boxes as { name, href }}
-        <a {href} class="flex flex-1 flex-col m-4 bg-green-100 hover:bg-green-200 active:bg-green-300 transition-all items-center justify-center w-1/4 p-4">
+        <a transition:fly={{ y: -20 }} {href} class="flex flex-1 flex-col m-4 bg-green-100 hover:bg-green-200 active:bg-green-300 transition-all items-center justify-center w-1/4 p-4">
           {name}
         </a>
         {/each}
