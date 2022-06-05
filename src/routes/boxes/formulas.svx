@@ -358,6 +358,9 @@ let V = ((1/3)*Math.PI)*(h*Math.pow(r,2));
 Volume of a pyramid
 
 ```ts
+let B = ...;
+let h = ...;
+let (1/3)*(B*h);
 ```
 
 </div>
