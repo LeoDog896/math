@@ -343,6 +343,8 @@ let V = (Math.PI*h)*Math.pow(r,2);
 Volume of a sphere
 
 ```ts
+let r = ...;
+let V = ((4/3)*h)*Math.pow(r,2);
 ```
 
 Volume of a cone
