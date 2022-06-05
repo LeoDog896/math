@@ -112,5 +112,49 @@ let b2 = ...;
 let A = (1/2)*(h*(b1+b2));
 ```
 
+Area of a hexagon
+
+```ts
+let s = ...;
+let A = ((3*Math.sqrt(3))/2)*(Math.sqrt(s,2));
+```
+
+```ts
+let p = ...;
+let a = ...;
+let A = (1/2)*(p*a);
+```
+
+</div>
+<div slot="result">
+
+Area of a triangle
+
+$\Huge A=\frac 1 2 bh\newline\nobreak$
+
+Area of a rectangle
+
+$\Huge A=bh\newline\nobreak$
+
+Area of a square
+
+$\Huge A=s^2\newline\nobreak$
+
+Area of a circle
+
+$\Huge A=\pi r^2\newline\nobreak$
+
+Area of a rhombus
+
+$\Huge A=bh\newline\nobreak$
+
+Area of a trapezoid
+
+$\Huge A=\frac 1 2 h(b_1+b_2)\newline\nobreak$
+
+Area of a hexagon
+
+$\Huge A=\cfrac{3\sqrt 3}{2}s^2\newline A=\frac 1 2 pa\newline\nobreak$
+
 </div>
 </Result>
