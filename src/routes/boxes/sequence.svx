@@ -45,10 +45,10 @@ The following is the syntax for a summation, one of the many commonly used mathe
 
 ```ts
 let sum = 0;
-let c = ...
+let c = ...;
 
 for (let n = a; n <= b; n++) {
-  sum += c
+  sum += c;
 } 
 ```
 
@@ -56,7 +56,7 @@ for (let n = a; n <= b; n++) {
   <div slot="result">
 
     $$
-    \displaystyle\sum_{n=a}^bc
+    \sum_{n=a}^bc
     $$
 
   </div>
@@ -71,10 +71,10 @@ The following is the syntax for a product, another one of the many commonly used
 
 ```ts
 let sum = 0;
-let c = ...
+let c = ...;
 
 for (let n = a; n <= b; n++) {
-  sum *= c
+  sum *= c;
 } 
 ```
 
@@ -82,7 +82,7 @@ for (let n = a; n <= b; n++) {
   <div slot="result">
 
     $$
-    \displaystyle\prod_{n=a}^bc
+    \prod_{n=a}^bc
     $$
 
   </div>
