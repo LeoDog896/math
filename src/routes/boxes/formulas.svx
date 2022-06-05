@@ -113,6 +113,4 @@ let A = (1/2)*(h*(b1+b2));
 ```
 
 </div>
-<div slot="result">
-</div>
 </Result>

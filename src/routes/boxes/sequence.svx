@@ -19,6 +19,13 @@ let sequence = [5, 4, 3, 2, 1];
 
   </div>
 
+  <div slot="result">
+
+    $$
+    \set{ 3, 3, 1 }
+    $$
+
+  </div>
 </Result>
 
 <Result left="" right="">
@@ -31,6 +38,14 @@ You may also have heard of sets. These exist in math as well, and like in many l
 ```ts
 let set = new Set([1, 1, 2, 3]);
 ```
+
+  </div>
+
+  <div slot="result">
+
+    $$
+    \set{ 1, 2, \textcolor{red}{2}, 3 }
+    $$
 
   </div>
 
