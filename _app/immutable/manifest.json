@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-2769b1ca.js",
+    "file": "start-7b2212f2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -59,7 +59,7 @@
     ]
   },
   "src/routes/boxes/sequence.svx": {
-    "file": "pages/boxes/sequence.svx-b61147d5.js",
+    "file": "pages/boxes/sequence.svx-f8091733.js",
     "src": "src/routes/boxes/sequence.svx",
     "isEntry": true,
     "isDynamicEntry": true,
