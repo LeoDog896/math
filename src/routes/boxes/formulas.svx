@@ -19,7 +19,7 @@ Below is a list of formulas for you convenience to use.
 Perimeter of a rectangle
 
 ```ts
-let P = (2*l)+(2*w)
+let P = (2*l)+(2*w);
 ```
 
 </div>
