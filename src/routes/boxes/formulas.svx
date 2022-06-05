@@ -27,7 +27,7 @@ let P = (2*l)+(2*w)
 
 $$
 \begin{equation*}
-P = 2l\+2w
+P = 2l+2w
 \end{equation*}
 $$
 
