@@ -9,29 +9,110 @@ layout: boxes
 
 Below is a list of formulas for you convenience to use.
 
+---
+
 # Geometry
 
 <Result left="" right="">
 <div slot="input">
 
-## Perimeter
+## Perimeter and Circumference
 
 Perimeter of a rectangle
 
 ```ts
-let l = ...
-let w = ...
+let l = ...;
+let w = ...;
 let P = (2*l)+(2*w);
 ```
+
+Perimeter of a square
+
+```ts
+let s = ...;
+let P = 4*s;
+```
+
+Circumference of a circle
+
+```ts
+let r = ...;
+let C = (2*r)*Math.PI;
+```
+
+Just to remember, the radius is half of the diameter
 
 </div>
 <div slot="result">
 
-$$
-\begin{equation*}
-\tiny P = 2l+2w
-\end{equation*}
-$$
+Perimeter of a rectangle
 
+$\Huge P=2l+2w\newline\nobreak$
+
+Perimeter of a square
+
+$\Huge P=4s\newline\nobreak$
+
+Circumference of a circle
+
+$\Huge C=2\pi r\newline\nobreak$
+
+</div>
+</Result>
+
+<Result left="" right="">
+<div slot="input">
+
+## Area
+
+Area of a triangle
+
+```ts
+let b = ...;
+let h = ...;
+let A = (1/2)*(b*h);
+```
+
+Area of a rectangle
+
+```ts
+let l = ...;
+let w = ...;
+let A = l*w;
+```
+
+Area of a square
+
+```ts
+let s = ...;
+let A = Math.pow(s,2);
+```
+
+Area of a circle
+
+```ts
+let r = ...;
+let A = Math.PI*Math.pow(r,2);
+```
+
+Area of a rhombus
+
+```ts
+let b = ...;
+let h = ...;
+let A = b*h;
+```
+
+Area of a trapezoid
+
+```ts
+let h = ...;
+let b1 = ...;
+let b2 = ...;
+let A = (1/2)*(h*(b1+b2));
+```
+
+</div>
+<div slot="result">
 </div>
 </Result>
