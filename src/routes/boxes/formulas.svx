@@ -224,3 +224,88 @@ $\Huge L.A.=\frac 1 2 lp\newline\nobreak$
 
 </div>
 </Result>
+
+<Result left="" right="">
+<div slot="input">
+
+## Surface Area
+
+Surface Area of a triangular prism
+
+```ts
+let h = ...;
+let p = ...;
+let B = ...;
+let SA = (h*p)+(2*B);
+```
+
+Surface Area of a rectangular prism
+
+```ts
+let l = ...;
+let w = ...;
+let h = ...;
+let SA = (((l*w)*2)+((l*h)*2))+((w*h)*2);
+```
+
+Surface Area of a cylinder
+
+```ts
+let r = ...;
+let h = ...;
+let SA = ((r*Math.pow(r,2))*2)+((r*h)*(2*Math.PI));
+```
+
+Surface Area of a sphere
+
+```ts
+let r = ...;
+let SA = (4*Math.PI)*Math.pow(r,2);
+```
+
+Surface Area of a cone
+
+```ts
+let r = ...;
+let l = ...;
+let SA = (Math.PI*Math.pow(r,2))+((r*l)*Math.PI);
+```
+
+Surface Area of a pyramid
+
+```ts
+let l = ...;
+let p = ...;
+let B = ...;
+let SA = ((1/2)*(l*p))+B;
+```
+
+</div>
+<div slot="result">
+
+Surface Area of a triangular prism
+
+$\Huge S.A.=hp+2B\newline\nobreak$
+
+Surface Area of a rectangular prism
+
+$\Huge S.A.=2lw+2lh+2wh\newline\nobreak$
+
+Surface Area of a cylinder
+
+$\Huge S.A.=2\pi r^2+2\pi rh\newline\nobreak$
+
+Surface Area of a sphere
+
+$\Huge S.A.=4\pi r^2\newline\nobreak$
+
+Surface Area of a cone
+
+$\Huge S.A.=\pi r^2+\pi rl\newline\nobreak$
+
+Surface Area of a pyramid
+
+$\Huge S.A.=\frac 1 2 lp+B\newline\nobreak$
+
+</div>
+</Result>
