@@ -30,10 +30,10 @@ The following is the syntax for a summation, one of the many commonly used mathe
 
 ```ts
 let sum = 0;
-let c = ...
+let c = ...;
 
 for (let n = a; n <= b; n++) {
-  sum += c
+  sum += c;
 } 
 ```
 
@@ -56,10 +56,10 @@ The following is the syntax for a product, another one of the many commonly used
 
 ```ts
 let sum = 0;
-let c = ...
+let c = ...;
 
 for (let n = a; n <= b; n++) {
-  sum *= c
+  sum *= c;
 } 
 ```
 
