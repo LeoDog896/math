@@ -40,7 +40,12 @@ let r = ...;
 let C = (2*r)*Math.PI;
 ```
 
-Just to remember, the radius is half of the diameter
+or
+
+```ts
+let d = ...;
+let C = Math.PI*d;
+```
 
 </div>
 <div slot="result">
@@ -55,7 +60,7 @@ $\Huge P=4s\newline\nobreak$
 
 Circumference of a circle
 
-$\Huge C=2\pi r\newline\nobreak$
+$\Huge C=2\pi r\newline C=\pi d\newline\nobreak$
 
 </div>
 </Result>
