@@ -350,6 +350,9 @@ let V = ((4/3)*h)*Math.pow(r,2);
 Volume of a cone
 
 ```ts
+let r = ...;
+let h = ...;
+let V = ((1/3)*Math.PI)*(h*Math.pow(r,2));
 ```
 
 Volume of a pyramid
