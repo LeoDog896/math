@@ -41,7 +41,7 @@ for (let n = a; n <= b; n++) {
   <div slot="result">
 
     $$
-    \displaystyle\sum_{n=a}^bc
+    \sum_{n=a}^bc
     $$
 
   </div>
@@ -67,7 +67,7 @@ for (let n = a; n <= b; n++) {
   <div slot="result">
 
     $$
-    \displaystyle\prod_{n=a}^bc
+    \prod_{n=a}^bc
     $$
 
   </div>
