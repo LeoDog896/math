@@ -16,12 +16,16 @@
     name: "General",
     boxes: [
       {
+        name: "Basics",
+        href: "/math/boxes/basics"
+      },
+      {
         name: "Sequence",
         href: "/math/boxes/sequence"
       },
       {
-        name: "Thing",
-        href: "/math/boxes/thing"
+        name: "Formula Cheat Sheet",
+        href: "/math/boxes/formulas"
       }
     ]
   }]
