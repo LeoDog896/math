@@ -203,6 +203,8 @@ let p = ...;
 let LA = (1/2)*(l*p);
 ```
 
+If you don't know, lateral area is surface area without any bases.
+
 </div>
 <div slot="result">
 
