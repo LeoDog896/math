@@ -3,4 +3,31 @@ title: Formula Cheat Sheet
 layout: boxes
 ---
 
-Add formulas here
+<script lang="ts">
+  import Result from "$lib/Result.svelte"
+</script>
+
+Below is a list of formulas for you convenience to use.
+
+# Geometry
+
+<Result left="" right="">
+<div slot="input">
+
+## Perimeter
+
+Perimeter of a rectangle
+
+```ts
+let A = (1/2)*b*h;
+```
+
+</div>
+<div slot="result">
+$$
+\begin{equation*}
+A=\frac 1 2 bh
+\end{equation*}
+$$
+</div>
+</Result>
