@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-3771e897.js",
+    "file": "start-08760654.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -48,7 +48,7 @@
     ]
   },
   "src/routes/boxes/formulas.svx": {
-    "file": "pages/boxes/formulas.svx-2d17f503.js",
+    "file": "pages/boxes/formulas.svx-608c6b15.js",
     "src": "src/routes/boxes/formulas.svx",
     "isEntry": true,
     "isDynamicEntry": true,
