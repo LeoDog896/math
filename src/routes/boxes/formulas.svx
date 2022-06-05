@@ -165,3 +165,62 @@ $\Huge A=\cfrac{3\sqrt 3}{2}s^2\newline A=\frac 1 2 pa\newline\nobreak$
 
 </div>
 </Result>
+
+<Result left="" right="">
+<div slot="input">
+
+## Lateral Area
+
+Lateral Area of a triangular prism
+
+```ts
+let h = ...;
+let p = ...;
+let LA = h*p;
+```
+
+Lateral Area of a cylinder
+
+```ts
+let r = ...;
+let h = ...;
+let LA = (2*Math.PI)*(r*h);
+```
+
+Lateral Area of a cone
+
+```ts
+let r = ...;
+let p = ...;
+let LA = (r*l)*Math.PI;
+```
+
+Lateral Area of a pyramid
+
+```ts
+let l = ...;
+let p = ...;
+let LA = (1/2)*(l*p);
+```
+
+</div>
+<div slot="result">
+
+Lateral Area of a triangular prism
+
+$\Huge L.A.=hp\newline\nobreak$
+
+Lateral Area of a cylinder
+
+$\Huge L.A.=2\pi rh\newline\nobreak$
+
+Lateral Area of a cone
+
+$\Huge L.A.=\pi rl\newline\nobreak$
+
+Lateral Area of a pyramid
+
+$\Huge L.A.=\frac 1 2 lp\newline\nobreak$
+
+</div>
+</Result>
