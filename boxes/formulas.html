@@ -7,11 +7,11 @@
 		<meta http-equiv="content-security-policy" content=""><link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css" rel="stylesheet" data-svelte="svelte-1283o2j"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css" integrity="sha384-ZPe7yZ91iWxYumsBEOn7ieg8q/o+qh/hQpSaPow8T6BwALcXSCS6C6fSRPIAnTQs" crossorigin="anonymous" data-svelte="svelte-1283o2j">
 	<link rel="stylesheet" href="/math/_app/immutable/assets/pages/__layout.svelte-09547757.css">
 	<link rel="stylesheet" href="/math/_app/immutable/assets/Result-6d899da9.css">
-	<link rel="modulepreload" href="/math/_app/immutable/start-7f21fb20.js">
+	<link rel="modulepreload" href="/math/_app/immutable/start-92055c43.js">
 	<link rel="modulepreload" href="/math/_app/immutable/chunks/index-0cc79b3e.js">
 	<link rel="modulepreload" href="/math/_app/immutable/pages/__layout.svelte-9366b20d.js">
 	<link rel="modulepreload" href="/math/_app/immutable/chunks/index-cff33647.js">
-	<link rel="modulepreload" href="/math/_app/immutable/pages/boxes/formulas.svx-41f156bc.js">
+	<link rel="modulepreload" href="/math/_app/immutable/pages/boxes/formulas.svx-b4523a10.js">
 	<link rel="modulepreload" href="/math/_app/immutable/chunks/Box-7a4e1585.js">
 	<link rel="modulepreload" href="/math/_app/immutable/chunks/Result-79dbd34f.js">
 	</head>
@@ -24,25 +24,65 @@
 <div class="w-full h-full"><div class="w-full h-full"><div class="mx-16 sm:mx-24 md:mx-32 lg:mx-48 xl:mx-72 my-16"><a href="/math" class="mb-8 w-full transition-all block hover:translate-x-[-10px]">🠔 Back</a>
   <h1 class="text-6xl mb-4">Formula Cheat Sheet</h1>
   <p>Below is a list of formulas for you convenience to use.</p>
+<hr>
 <h1>Geometry</h1>
 <div class="flex items-stretch flex-row w-full py-4 rounded-lg"><div class="flex-grow min-h-full border w-1/2"><div class="flex flex-col h-full">
-      <div class="p-4"><div slot="input"><h2>Perimeter</h2>
+      <div class="p-4"><div slot="input"><h2>Perimeter and Circumference</h2>
 <p>Perimeter of a rectangle</p>
-<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> l <span class="token operator">=</span> <span class="token operator">...</span>
-<span class="token keyword">let</span> w <span class="token operator">=</span> <span class="token operator">...</span>
-<span class="token keyword">let</span> <span class="token constant">P</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>l<span class="token punctuation">)</span><span class="token operator">+</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>w<span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></div></div></div></div>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> l <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> w <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">P</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>l<span class="token punctuation">)</span><span class="token operator">+</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>w<span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Perimeter of a square</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> s <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">P</span> <span class="token operator">=</span> <span class="token number">4</span><span class="token operator">*</span>s<span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Circumference of a circle</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> r <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">C</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">*</span>r<span class="token punctuation">)</span><span class="token operator">*</span>Math<span class="token punctuation">.</span><span class="token constant">PI</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Just to remember, the radius is half of the diameter</p></div></div></div></div>
 
   <div class="flex-grow min-h-full border w-1/2"><div class="flex flex-col h-full w-full">
-      <div class="w-full flex flex-grow justify-center h-full items-center"><div slot="result"><div class="math math-display"><!-- HTML_TAG_START --><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.16em" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mstyle mathsize="0.5em"><mi>P</mi><mo>=</mo><mn>2</mn><mi>l</mi><mo>+</mo><mn>2</mn><mi>w</mi></mstyle></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{equation*}
-\tiny P = 2l+2w
-\end{equation*}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.85em;"><span style="top:-2.85em;"><span class="pstrut" style="height:2.84em;"></span><span class="mord"><span class="mord mathnormal sizing reset-size6 size1" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.4089em;"></span><span class="mrel sizing reset-size6 size1">=</span><span class="mspace" style="margin-right:0.4089em;"></span><span class="mord sizing reset-size6 size1">2</span><span class="mord mathnormal sizing reset-size6 size1" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.3271em;"></span><span class="mbin sizing reset-size6 size1">+</span><span class="mspace" style="margin-right:0.3271em;"></span><span class="mord sizing reset-size6 size1">2</span><span class="mord mathnormal sizing reset-size6 size1" style="margin-right:0.02691em;">w</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35em;"><span></span></span></span></span></span></span></span></span></span></span></span><!-- HTML_TAG_END --></div></div></div></div></div>
+      <div class="w-full flex flex-grow justify-center h-full items-center"><div slot="result"><p>Perimeter of a rectangle</p>
+<p><span class="math math-inline"><!-- HTML_TAG_START --><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathsize="2.488em"><mi>P</mi><mo>=</mo><mn>2</mn><mi>l</mi><mo>+</mo><mn>2</mn><mi>w</mi><mspace linebreak="newline"></mspace><mspace></mspace></mstyle></mrow><annotation encoding="application/x-tex">\Huge P=2l+2w\newline\nobreak</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001em;"></span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel sizing reset-size6 size11">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9351em;vertical-align:-0.2073em;"></span><span class="mord sizing reset-size6 size11">2</span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin sizing reset-size6 size11">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.6034em;"></span><span class="mord sizing reset-size6 size11">2</span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.02691em;">w</span></span><span class="mspace newline sizing reset-size6 size11"></span><span class="base"><span class="strut" style="height:0em;"></span><span class="mspace nobreak sizing reset-size6 size11"></span></span></span></span><!-- HTML_TAG_END --></span></p>
+<p>Perimeter of a square</p>
+<p><span class="math math-inline"><!-- HTML_TAG_START --><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathsize="2.488em"><mi>P</mi><mo>=</mo><mn>4</mn><mi>s</mi><mspace linebreak="newline"></mspace><mspace></mspace></mstyle></mrow><annotation encoding="application/x-tex">\Huge P=4s\newline\nobreak</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001em;"></span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel sizing reset-size6 size11">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.6034em;"></span><span class="mord sizing reset-size6 size11">4</span><span class="mord mathnormal sizing reset-size6 size11">s</span></span><span class="mspace newline sizing reset-size6 size11"></span><span class="base"><span class="strut" style="height:0em;"></span><span class="mspace nobreak sizing reset-size6 size11"></span></span></span></span><!-- HTML_TAG_END --></span></p>
+<p>Circumference of a circle</p>
+<p><span class="math math-inline"><!-- HTML_TAG_START --><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathsize="2.488em"><mi>C</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>r</mi><mspace linebreak="newline"></mspace><mspace></mspace></mstyle></mrow><annotation encoding="application/x-tex">\Huge C=2\pi r\newline\nobreak</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001em;"></span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel sizing reset-size6 size11">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.6034em;"></span><span class="mord sizing reset-size6 size11">2</span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.03588em;">π</span><span class="mord mathnormal sizing reset-size6 size11" style="margin-right:0.02778em;">r</span></span><span class="mspace newline sizing reset-size6 size11"></span><span class="base"><span class="strut" style="height:0em;"></span><span class="mspace nobreak sizing reset-size6 size11"></span></span></span></span><!-- HTML_TAG_END --></span></p></div></div></div></div>
+</div>
+<div class="flex items-stretch flex-row w-full py-4 rounded-lg"><div class="flex-grow min-h-full border w-1/2"><div class="flex flex-col h-full">
+      <div class="p-4"><div slot="input"><h2>Area</h2>
+<p>Area of a triangle</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> h <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">A</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>b<span class="token operator">*</span>h<span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Area of a rectangle</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> l <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> w <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">A</span> <span class="token operator">=</span> l<span class="token operator">*</span>w<span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Area of a square</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> s <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">A</span> <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Area of a circle</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> r <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">A</span> <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span><span class="token operator">*</span>Math<span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span>r<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Area of a rhombus</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> h <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">A</span> <span class="token operator">=</span> b<span class="token operator">*</span>h<span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>Area of a trapezoid</p>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> h <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> b1 <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> b2 <span class="token operator">=</span> <span class="token operator">...</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> <span class="token constant">A</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span>h<span class="token operator">*</span><span class="token punctuation">(</span>b1<span class="token operator">+</span>b2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre></div></div></div></div>
+
+  <div class="flex-grow min-h-full border w-1/2"><div class="flex flex-col h-full w-full">
+      <div class="w-full flex flex-grow justify-center h-full items-center"><div slot="result"></div></div></div></div>
 </div></div></div></div>
 
 
-		<script type="module" data-sveltekit-hydrate="pqsy74">
-		import { start } from "/math/_app/immutable/start-7f21fb20.js";
+		<script type="module" data-sveltekit-hydrate="1q5qp3m">
+		import { start } from "/math/_app/immutable/start-92055c43.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="pqsy74"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="1q5qp3m"]').parentNode,
 			paths: {"base":"/math","assets":"/math"},
 			session: {},
 			route: true,
