@@ -313,6 +313,48 @@ $\Huge S.A.=\frac 1 2 lp+B\newline\nobreak$
 <Result left="" right="">
 <div slot="input">
 
+## Volume
+
+Volume of a triangular prism
+
+```ts
+let B = ...;
+let h = ...;
+let V = B*h;
+```
+
+Volume of a rectangular prism
+
+```ts
+let l = ...;
+let w = ...;
+let h = ...;
+let V = (l*w)*h;
+```
+
+Volume of a cylinder
+
+```ts
+let r = ...;
+let h = ...;
+let V = (Math.PI*h)*Math.pow(r,2);
+```
+
+Volume of a sphere
+
+```ts
+```
+
+Volume of a cone
+
+```ts
+```
+
+Volume of a pyramid
+
+```ts
+```
+
 </div>
 <div slot="result">
 
