@@ -24,10 +24,12 @@ let A = (1/2)*b*h;
 
 </div>
 <div slot="result">
+
 $$
-\begin{equation*}
+\begin{equation}
 A=\frac 1 2 bh
-\end{equation*}
+\end{equation}
 $$
+
 </div>
 </Result>
