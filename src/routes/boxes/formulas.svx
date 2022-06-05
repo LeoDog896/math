@@ -19,7 +19,7 @@ Below is a list of formulas for you convenience to use.
 Perimeter of a rectangle
 
 ```ts
-let A = (1/2)*b*h;
+let P = (2*l)+(2*w)
 ```
 
 </div>
@@ -27,7 +27,7 @@ let A = (1/2)*b*h;
 
 $$
 \begin{equation*}
-A=\frac 1 2 bh
+P = 2l\+2w
 \end{equation*}
 $$
 
