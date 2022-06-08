@@ -1,0 +1,17 @@
+---
+title: Making Blobs with Trigonometry
+layout: boxes
+---
+
+Sometimes, drawing circles can be useful. You may have had a class in Trigonometry, which is about triangles.
+
+A lovely quirk of triangles, though, is that they can be used to draw circles:
+
+(insert animated graph of triangles and circles.)
+
+Blobs are deformed circles that work great with designing your website. Let's make one!
+
+## Point-based circle
+
+We can start by making a circle with an svg:
+

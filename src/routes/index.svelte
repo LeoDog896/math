@@ -26,6 +26,10 @@
       {
         name: "Formula Cheat Sheet",
         href: "/math/boxes/formulas"
+      },
+      {
+        name: "Blobs & Trigonometry",
+        href: "/math/boxes/blob"
       }
     ]
   }]
@@ -40,7 +44,7 @@
     {#if expanded}
       <div class="flex flex-wrap justify-around">
         {#each boxes as { name, href }}
-        <a transition:fly={{ y: -20 }} {href} class="flex flex-1 flex-col m-4 bg-green-100 hover:bg-green-200 active:bg-green-300 transition-all items-center justify-center w-1/4 p-4">
+        <a sveltekit:prefetch transition:fly={{ y: -20 }} {href} class="flex flex-1 flex-col m-4 bg-green-100 hover:bg-green-200 active:bg-green-300 transition-all items-center justify-center w-1/4 p-4">
           {name}
         </a>
         {/each}
