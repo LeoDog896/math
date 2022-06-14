@@ -1,0 +1,74 @@
+---
+title: Rotational Velocity
+layout: boxes
+---
+
+> And how to rotate a cube
+
+## Drawing a Square
+
+First, lets talk about rotating points.
+
+(Visualization of square in graph)
+
+Here is a square, with the points (1, 1), (-1, 1), (1, -1), and (-1, -1).
+
+But, how can we rotate it?
+
+## Polar Graphing
+
+We can rotate this square by using polar graphing, a way of visualizing graphs via angles and circles, rather than squares.
+
+Polar graphing, instead of X and Y, is represented as r in radius, and $\theta$ for the angle, in radians.
+
+(Show polar graph)
+
+In radians, $\pi$ is 180, so $2\pi$ would be a full rotation.
+
+For example, the point $\left(1,\frac{\pi}{2}\right)$ would be 90 degrees up 1, which in rectangular graphs,
+is (0, 1).
+
+Since we need to turn our rectangular points into polar points in order to rotate them (by adding to $\theta$), we can use a formula to do so.
+
+$$
+\left(\sqrt{x^{2}+y^{2}},\arctan\left(\frac{y}{x}\right)\right)
+$$
+
+This will allow us to transform rectangular coordinates to polar ones.
+
+$$
+\left(r\cos\theta,r\sin\theta\right)
+$$
+
+And this will allow us to turn polar coordinates into rectangular coordinates.
+
+Combining the two, and adding our own angle, $\theta$ we get:
+
+$$
+\left(\sqrt{x^{2}+y^{2}}\cos\left(\arctan\left(\frac{y}{x}\right)+\theta\right),\sqrt{x^{2}+y^{2}}\sin\left(\arctan\left(\frac{y}{x}\right)+\theta\right)\right)
+$$
+
+**However**, this only works in quadrants I and IV. To make them work in II and III, we need to subtract PI from the angle.
+Thus, we will have another equation:
+
+$$
+\left(\sqrt{x^{2}+y^{2}}\cos\left(\pi-\arctan\left(\frac{y}{x}\right)+\theta\right),\sqrt{x^{2}+y^{2}}\sin\left(\pi-\arctan\left(\frac{y}{x}\right)+\theta\right)\right)
+$$
+
+# Tying in physics
+
+We can add the concepts of acceleration and velocity
+using the followin equation
+
+$$
+\theta =\omega t+\frac{1}{2}\alpha t^2
+$$
+
+$\alpha$ is angular acceleration
+
+$\omega$ is angular velocity
+
+and $\theta$ is the current rotation.
+
+Acceleration is the change in velocity, while velocity is the change in rotation.
+We can model this with a 

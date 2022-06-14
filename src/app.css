@@ -9,6 +9,6 @@
   }
 
   h2 {
-    @apply text-xl font-bold my-2 block
+    @apply text-xl font-bold my-4 block
   }
 }
