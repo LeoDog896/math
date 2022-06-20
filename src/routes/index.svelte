@@ -4,6 +4,7 @@
   interface Box {
     name: string;
     href: string;
+    hook?: string;
   }
 
   interface Category {
@@ -30,6 +31,11 @@
       {
         name: "Blobs & Trigonometry",
         href: "/math/boxes/blob"
+      },
+      {
+        name: "Rotational Velocity",
+        hook: "How do you rotate a cube?",
+        href: "/math/boxes/rotational-velocity"
       }
     ]
   }]
@@ -43,10 +49,13 @@
     </h1>
     {#if expanded}
       <div class="flex flex-wrap justify-around">
-        {#each boxes as { name, href }}
-        <a sveltekit:prefetch transition:fly={{ y: -20 }} {href} class="flex flex-1 flex-col m-4 bg-green-100 hover:bg-green-200 active:bg-green-300 transition-all items-center justify-center w-1/4 p-4">
-          {name}
-        </a>
+        {#each boxes as { name, href, hook }}
+          <a sveltekit:prefetch transition:fly={{ y: -20 }} {href} class="flex flex-1 flex-col m-4 bg-green-100 hover:bg-green-200 active:bg-green-300 transition-all items-center justify-center w-1/4 p-4">
+            {name}
+            {#if hook}
+              <p class="text-gray-600">{hook}</p>
+            {/if}
+          </a>
         {/each}
       </div>
     {/if}
